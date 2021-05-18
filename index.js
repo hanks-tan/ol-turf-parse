@@ -1,6 +1,6 @@
 import { Collection, Feature } from 'ol'
 import GeoJSON from 'ol/format/GeoJSON'
-import Geometry from 'ol/geom/geometry'
+import Geometry from 'ol/geom/Geometry'
 
 export function ol2turf (olData) {
   let format = new GeoJSON()
@@ -32,9 +32,4 @@ export function turf2ol (turfData) {
   } else {
     return null
   }
-}
-
-export default {
-  ol2turf,
-  turf2ol
 }
