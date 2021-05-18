@@ -1,0 +1,30 @@
+{
+  "name": "ol-turf-parse",
+  "version": "0.0.1",
+  "description": "一个openlayers数据与turf数据互转的脚本",
+  "main": "index.js",
+  "dependencies": {
+    "ol": "^6.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hanks-tan/ol-turf-parse.git"
+  },
+  "keywords": [
+    "ol",
+    "geometry",
+    "geojson",
+    "turf",
+    "feature"
+  ],
+  "author": "hanks-tan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hanks-tan/ol-turf-parse/issues"
+  },
+  "homepage": "https://github.com/hanks-tan/ol-turf-parse#readme"
+}
