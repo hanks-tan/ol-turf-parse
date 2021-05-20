@@ -15,6 +15,7 @@ import {ol2turf, turf2ol} from 'ol-turf-parse'
 
 ### ol2turf
 支持将openlayers的Feature、Geometry、Collection等类型转换为turf支持的geojson数据对象。
+
 e.g
 ```js
 let point = [0, 0]
@@ -39,6 +40,7 @@ console.log(r)
 
 ### turf2ol
 支持将geojson的Feature、Geometry、FeatureCollection、GeometryCollection等类型转换为openlayers中对应数据类型。
+
 e.g
 ```js
     let obj = {

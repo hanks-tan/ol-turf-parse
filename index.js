@@ -1,6 +1,6 @@
-import { Collection, Feature } from 'ol'
-import GeoJSON from 'ol/format/GeoJSON'
-import Geometry from 'ol/geom/Geometry'
+import { Collection, Feature } from 'ol/index.js'
+import GeoJSON from 'ol/format/GeoJSON.js'
+import Geometry from 'ol/geom/Geometry.js'
 
 export function ol2turf (olData) {
   let format = new GeoJSON()
