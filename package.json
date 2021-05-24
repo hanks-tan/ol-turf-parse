@@ -29,5 +29,8 @@
     "url": "https://github.com/hanks-tan/ol-turf-parse/issues"
   },
   "homepage": "https://github.com/hanks-tan/ol-turf-parse#readme",
-  "type": "module"
+  "type": "module",
+  "directories": {
+    "test": "test"
+  }
 }
